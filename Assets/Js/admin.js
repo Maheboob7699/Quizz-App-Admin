@@ -17,7 +17,69 @@ let lowerCasePattern = /[a-z]/;
 
 let adminEmail  = "admin@gmail.com";
 let adminPassword = "mumbai1@";
-function Login() {
+
+function loginPage(){
+    function Login() {
+        if (email.value == "" && password.value == "") {
+          emailAlert.innerHTML = "Email is Empty";
+          passwordAlert.innerHTML = "Password is Empty";
+      
+        }
+        else if (email.value.length < 6) {
+          emailAlert.innerHTML = "email is less than 6 ";
+          email.value = "";
+      
+          return;
+        }
+      
+        else if (!email.value.includes("@")) {
+          emailAlert.innerHTML = "Special character '@' is missing.";
+          email.value = "";
+      
+          return;
+        }
+        else if (!email.value.includes(".com")) {
+          emailAlert.innerHTML = "'com' is missing.";
+          email.value = "";
+          return;
+        }
+      
+      
+        else if (!specialSymbol.test(email.value)) {
+          alert(" email is not valid");
+          email.value = "";
+          return
+        }
+      
+        else if (password.value == "") {
+          passwordAlert.innerHTML = "Password is Empty";
+        }
+      
+      
+        else if (!numberPattern.test(password.value)) {
+          passwordAlert.innerHTML = "Password must contain at least one number";
+          password.value = "";
+          return;
+        }
+        else if (!patternSymbol.test(password.value)) {
+          passwordAlert.innerHTML = "Password must be , and contain at least one special character";
+          password.value = "";
+          return;
+        }
+      
+        else if (!lowerCasePattern.test(password.value)) {
+          passwordAlert.innerHTML = "Password must contain at least one lowercase letter";
+          password.value = "";
+          return;
+        }
+      
+        else if(email.value === adminEmail && password.value === adminPassword){
+                window.location.href = '//Html/admin.html';
+        }
+      }
+}
+
+    function Login() {
   if (email.value == "" && password.value == "") {
     emailAlert.innerHTML = "Email is Empty";
     passwordAlert.innerHTML = "Password is Empty";
@@ -72,7 +134,7 @@ function Login() {
   }
 
   else if(email.value === adminEmail && password.value === adminPassword){
-          window.location.href = "admin.html";
+          window.location.href = 'Assets/Html/admin.html';
   }
 }
 
