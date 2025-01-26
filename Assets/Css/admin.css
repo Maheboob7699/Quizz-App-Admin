@@ -1,0 +1,969 @@
+body {
+
+  font-family: "Roboto", sans-serif;
+  /* background-color: rgb(104, 228, 104); */
+}
+/*  admin login */
+body{
+
+  font-family: "Roboto", sans-serif;
+}
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.required{
+  color: red;
+}
+
+.quizz-img {
+  width: 326.6px;
+  height: 330.98px;
+  margin-bottom: 120px;
+
+}
+
+.login-form {
+
+  height: 512px;
+  width: 440px;
+  margin-left: 140px;
+  margin-top: 100px;
+  
+
+
+}
+
+.login-form h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.login-form p {
+  color: gray;
+}
+.sigunp-user-error{
+  color: red;
+}
+
+.email-alert{
+  color: red;
+}
+
+.password-alert{
+  color: red;
+}
+
+.login-form div {
+  margin-top: 25px;
+}
+
+
+#user-inpt{
+  width: 400px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid #344054;
+  padding-left: 18px;
+}
+
+#email-inpt{
+  width: 400px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid #344054;
+  padding-left: 20px;
+}
+
+#pass-inpt{
+  width: 300px;
+  border: none;
+  outline: none;
+  margin-left: -18px;
+}
+
+.password-input{
+  width: 417px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 10px;
+  border: 1px solid #344054;
+  display: flex
+;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.password-display .hide-password{
+ position: relative;
+ top: -13px;
+}
+.password-display .show-password
+{
+  display: none;
+  position: relative;
+  top: -13px;
+}
+.login-google-icon{
+  background-color: rgb(243, 245, 247);
+  box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+  width: 418px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.login-google-icon div img{
+  margin-bottom: 17px;
+}
+
+
+/* .google-icon {
+  color: #1C1C1E;
+  margin-bottom: 10px;
+} */
+
+.login-btn {
+  width: 418px;
+  height: 43px;
+  padding: 12px 24px 12px 24px;
+  font-size: 1.2rem;
+  gap: 4px;
+  border-radius: 10px;
+  opacity: 0px;
+   margin-top: 10px;
+  background-color: #F3BD00;
+  border: none;
+
+
+}
+
+.signup-btn {
+  width: Fill (440px)px;
+  height: Hug (60px)px;
+  padding: 16px 20px 16px 20px;
+  gap: 8px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+
+
+}
+
+.google-icon {
+  background-color: rgb(243, 245, 247);
+  box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.google-icon div {
+  margin-top: 3px;
+}
+
+.google-icon div i {
+  margin-top: -130px;
+
+}
+
+.google-icon p {
+  padding-left: 20px;
+  color: black;
+
+}
+
+.sign-up {
+  font-weight: 400;
+  color: #344054;
+  font-family: inter;
+  line-height: 19.2px;
+  margin-left: 120px;
+}
+
+.sign-up span {
+  font-weight: 700;
+  color: #0948B4;
+  line-height: 19.2px;
+}
+
+.sign-up span a{
+  text-decoration: none;
+  color: #0948B4;
+}
+
+/* login end */
+
+.admin-navbar {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-navbar div {
+  display: flex;
+}
+
+.techpatshala-img {
+  margin-left: 30px;
+  object-fit: contain;
+}
+
+.admin-bar {
+  margin-left: 40px;
+}
+
+.side-bar{
+  margin-left: 59px;
+  font-size: 1.6rem;
+}
+
+
+
+
+.admin-main {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.admin-section {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.admin-section p {
+  padding-right: 30px;
+  font-size: 1.4rem;
+}
+
+
+.admin-section i {
+  margin: auto;
+  font-size: 1.4rem;
+
+}
+
+.logout-user-detials{ 
+  height: 300px;
+  height: 150px;
+  width: 250px;
+  background-color: rgb(197, 221, 197);
+  position: absolute;
+  top: 75px;
+  left: 81%;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  display: none;
+}
+
+.admin-logout{
+  cursor: pointer;
+}
+
+
+
+
+.logout-user-detials .logout{
+  width: 109px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: burlywood;
+
+}
+.menu-section p {
+  font-size: 1.3rem;
+  padding-top: 10px;
+  padding-left: 10px
+
+}
+
+.remove-menu {
+  display: none;
+}
+
+.menu-section {
+  width: 170px;
+  height: 120vh;
+box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+/* display: none; */
+}
+
+
+
+
+/* user personal test details  */
+
+
+
+
+.user-test-details .test-data{
+  height: 60px;
+    width: 100%;
+    /* margin-left: 10px; */
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.particualr-user{
+  width: 100%;
+  height: auto;
+ 
+  display: none;
+  z-index: 0;
+}
+
+.particualr-user #user-information{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 99%;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+    box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+ 
+}
+
+
+.test-store{
+  width: 99%;
+  height: auto;
+  /* border: 1px solid grey; */
+  gap: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+  margin-left: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+
+}
+
+
+.options {
+  border-radius: 7px;
+   height: 30px;
+}
+.question{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+.option-1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.option-2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.option-3{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.option-4{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+
+/* user personal  test details  end */
+
+.home {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.user-menu{
+  cursor: pointer;
+  margin-left: 9px;
+}
+
+.quizz-menu {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.home span {
+  margin-left: 10px;
+}
+
+.rotate {
+  transition-delay: 0.2s;
+  transition-duration: 1s;
+  color: red;
+  transform: rotate(360deg);
+
+
+}
+
+.home.clicked i,
+.home.clicked span {
+  color: orange;
+  /* Change this to your desired clicked color */
+}
+
+.user-menu.clicked i,
+.user-menu.clicked span {
+  color: orange;
+}
+
+.user-menu {
+  margin-top: 10px;
+
+}
+
+.user-menu span {
+  margin-left: 10px;
+}
+
+.quizz-menu {
+  margin-top: 10px;
+}
+
+.quizz-menu.clicked i,
+.quizz-menu.clicked span {
+  color: orange;
+}
+
+.quizz-menu span {
+  margin-left: 10px;
+}
+
+.user-data {
+  width: 100%;
+
+}
+
+.admin-start {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 170px;
+  display: none;
+}
+
+table {
+  width: 98%;
+  border-collapse: collapse;
+  margin-left: 10px;
+  margin-top: 10px;
+  /* Ensures borders collapse into a single line */
+}
+
+th,td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  /* Adds horizontal line between rows */
+}
+
+th {
+  background-color: #daf0f3;
+}
+
+.veiw-result-btn {
+  background: transparent;
+  color: blue;
+  border: none;
+}
+
+
+.quizz-section {
+  width: 100%;
+  height: auto;
+  margin-top: -10px;
+  margin-left: 10px;
+  box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+  display: none;
+}
+
+.quizz-section h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.add-question {
+  background-color: green;
+  border: none;
+  height: 25px;
+  width: 175px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 84%;
+}
+
+.quizz-conatiner {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+
+.quizz-conatiner table {
+  width: 98%;
+  border-collapse: collapse;
+  margin: 20px ;
+  margin-left: 10px;
+}
+
+.quizz-conatiner table th,
+td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.quizz-conatiner table th {
+  background-color: #c0e5e7;
+}
+
+.quizz-conatiner table tr:hover {
+  background-color: #ddd;
+}
+
+.row-data {
+  cursor: pointer;
+}
+
+
+.show-quizz {
+  height: 20px;
+  border: none;
+  background-color: rgb(121, 158, 238);
+  border-radius: 5px;
+}
+
+
+
+.edit-quizz {
+  margin-left: 10px;
+  height: 20px;
+  border: none;
+  background-color: rgb(156, 214, 156);
+  border-radius: 5px;
+}
+
+.delete-quizz {
+  margin-left: 10px;
+  height: 20px;
+  border: none;
+  background-color: rgb(224, 75, 75);
+  border-radius: 5px;
+}
+
+
+
+
+/* set-question */
+.quizz-show{
+  display: none;
+}
+.create-questions {
+  background-color: #a9a0a552;
+  height: 498px;
+  width: 536px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+  margin: auto;
+  position: absolute;
+  top: 150px;
+  left: 433px;
+  display: none;
+  
+}
+
+
+.create-questions h3 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.cancle-button{
+  border-radius: 4px;
+  height: 25px;
+  width: 20px;
+  position: absolute;
+   top :25px;
+   right: 20px;
+}
+
+.cancle-button i{
+  padding-left: 1px;
+}
+.cancle-button:hover{
+  background-color: red;
+  border-radius: 4px;
+  height: 25px;
+  width: 20px;
+  position: absolute;
+   top :25px;
+   right: 20px;
+}
+
+.cancle-button i{
+
+  margin: auto;
+  margin-left: 4px;
+  margin-top: 5px;
+
+}
+
+.set-question {
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+  height: 376px;
+  width: 502px;
+}  
+
+.question-add {
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+.question-add textarea {
+  width: 469px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.option1-add {
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+.option1-add input {
+  width: 468px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.option2-add {
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+.option2-add input {
+  width: 468px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.option3-add {
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+.option3-add input {
+  width: 468px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+
+.option4-add {
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+.option4-add input {
+  width: 468px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.select-option select {
+  width: 475px;
+  height: 33px;
+  border-radius: 5px;
+  margin-left: 13px;
+  margin-top: 19px;
+}
+
+.sumbit-create-question{
+  background-color: #4524a9;
+  color: #FFFFFF;
+  height: 27px;
+  width: 77px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 223px;
+  margin-top: 15px;
+}
+
+.display-quizz-data{
+  background-color: #a9a0a552;
+  height: 600px;
+  width: 536px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+  margin: auto;
+  position: absolute;
+  top: 102px;
+  right: 363px;
+}
+
+.display-quizz-data h2{
+ padding-left: 10px;
+ 
+}
+.quizz-display{
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  margin-left: 17px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+  height: 525px;
+  width: 502px;
+}
+.quizz-display div{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.cancle-button{
+  border-radius: 4px;
+  height: 25px;
+  width: 20px;
+  position: absolute;
+   top :25px;
+   right: 20px;
+}
+
+.cancel-details i{
+  padding-left: 1px;
+}
+
+.cancel-details{
+  border-radius: 4px;
+  height: 25px;
+  width: 20px;
+  position: absolute;
+   top :25px;
+   right: 20px;
+}
+.cancel-details:hover{
+  background-color: red;
+  border-radius: 4px;
+  height: 25px;
+  width: 20px;
+}
+
+.cancel-details i{
+
+  margin: auto;
+  margin-left: 4px;
+  margin-top: 5px;
+
+}
+
+/* edit */
+.edit-questions {
+  background-color: #a9a0a552;
+  height: 498px;
+  width: 536px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+  margin: auto;
+  position: absolute;
+  top: 150px;
+  left: 433px;
+  display: none;
+  
+}
+
+.edit-question-add textarea{
+  width: 475px;
+  height: 28px;
+  margin-left: 10px;
+  border-radius: 6px;
+}
+
+.edit-cancle-button{
+  border-radius: 4px;
+  height: 25px;
+  width: 20px;
+  position: absolute;
+   top :25px;
+   right: 20px;
+}
+
+.edit-cancle-button i{
+  padding-left: 1px;
+}
+.edit-cancle-button:hover{
+  background-color: red;
+  border-radius: 4px;
+  height: 25px;
+  width: 20px;
+  position: absolute;
+   top :25px;
+   right: 20px;
+}
+
+.edit-cancle-button i{
+  margin: auto;
+  margin-left: 4px;
+  margin-top: 5px;
+
+}
+
+.sumbit-edit-question{
+  background-color: #4524a9;
+  color: #FFFFFF;
+  height: 27px;
+  width: 77px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 223px;
+  margin-top: 15px;
+}
+
+
+/* particular user */
+.particualr-user{
+  position: absolute;
+  top: 70px;
+  width: 84%;
+  left: 137px;
+}
+
+/* .user-name{
+  padding-bottom: 4px;
+}
+.user-email{
+  padding-bottom: 4px;
+} */
+
+.options h3{
+  padding-left: 10px;
+}
+
+.particualr-user-test-detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 99%;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+    box-shadow: 0px 8px 16px 0px #1C1C1E1A;
+    display: none;
+}
+
+.particualr-user-test-detail .particualr-user-test{
+  margin-left: 10px;
+}
+.particualr-user-test-detail .particualr-user-time{
+  margin-right: 10px;
+}
+
+.particualr-user h2{
+  margin-left: 20px;
+
+}
+
+
+.particualr-user table {
+  border-collapse: collapse; 
+  margin-left: 50px;/* Collapses borders into a single border */
+  width: 99%; /* Adjusts the width of the table to fit its content */
+}
+
+.particualr-user table td {
+  border: 1px solid black; /* Single solid black border around each cell */
+  padding: 8px; /* Adds space inside the cell */
+  text-align: center; /* Align text to the left (optional) */
+}
+
+/* Optional: Style the table header if there is one (not part of your current HTML, but useful if you decide to add headers) */
+.particualr-user table th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  background-color: #daf0f3;
+  text-align: center; /* Light gray background for header */
+}
+
+
+.particualr-user table .result-btn{
+  background: transparent;
+  color: blue;
+  border: none;
+}
+
+
